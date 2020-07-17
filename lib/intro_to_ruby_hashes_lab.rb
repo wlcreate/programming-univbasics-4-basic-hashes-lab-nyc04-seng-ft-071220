@@ -1,6 +1,8 @@
 def new_hash
   # return an empty hash
-  {}
+  empty_hash = {
+    
+  }
 end
 
 def my_hash
@@ -12,6 +14,9 @@ end
 
 def pioneer
   # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
+  hash = {
+    :name => "Grace Hopper"
+  }
 end
 
 
